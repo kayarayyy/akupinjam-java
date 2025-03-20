@@ -3,10 +3,10 @@ package models;
 public class User {
     private int id;
     private String name;
-    private int nip;
     private String email;
-    private int role;
     private String password;
+    private int nip;
+    private int role;
     private String alamat;
     public int getId() {
         return id;
